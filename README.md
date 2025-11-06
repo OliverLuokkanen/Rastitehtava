@@ -1,2 +1,0 @@
-# Rastitehtava
-Ohjelmistoprojektin rästitehtävä

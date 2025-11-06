@@ -1,41 +1,43 @@
-# Prerequisites
-*.d
+# Node
+node_modules/
+.env
+npm-debug.log*
+yarn-error.log
 
-# Compiled Object files
-*.slo
-*.lo
+# Logs
+logs/
+*.log
+
+# npm
+package-lock.json
+yarn.lock
+
+# MySQL dump / DB
+*.sql
+
+# Build / Qt / C++
+build/
+dist/
+bin/
+obj/
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.exe
+*.dll
 *.so
 *.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
+# Qt Creator / IDE
+*.pro.user*
+*.user
+.idea/
+.vscode/
+*.swp
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# macOS
+.DS_Store
 
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Misc
+*.pyc
+*.pyo
+*.orig
